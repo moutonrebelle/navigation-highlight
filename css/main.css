@@ -1,0 +1,36 @@
+/* ------------- =General -------------- */
+
+html {
+  line-height: 1.5;
+  background-color: #ffe500;
+  font-family: georgia;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: sigmar one;
+  text-align: center;
+  font-size: 3rem;
+  color: #cc1465;
+}
+nav ul {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.cards li {
+  display: inline-block;
+  background-color: #cc1465;
+  margin-bottom: .3em;
+  padding: .75em;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
