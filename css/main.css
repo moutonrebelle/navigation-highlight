@@ -2,30 +2,49 @@
 
 html {
   line-height: 1.5;
-  background-color: #ffe500;
   font-family: georgia;
+  font-size: 1.125rem;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0 0 0em;
+}
+
+/* ------------- =heading -------------- */
+
 h1 {
   font-family: sigmar one;
   text-align: center;
   font-size: 3rem;
   color: #cc1465;
+  margin: 0;
 }
+
+/* ------------- =navigation-------------- */
+
+header {
+  display: block;
+  background-color: #ffe500;
+}
+
 nav ul {
   vertical-align: middle;
   text-align: center;
+  padding: 0 0 0;
+  margin: 0 0 0;
 }
 
 .cards li {
   display: inline-block;
-  background-color: #cc1465;
+  background-color: #b2a212;
   margin-bottom: .3em;
-  padding: .75em;
+  padding: .2em .5em .3em;
   list-style-type: none;
   text-align: center;
   border-radius: 4px;
@@ -34,3 +53,8 @@ nav ul {
 a {
   text-decoration: none;
   color: white;
+}
+
+.cards li:hover {
+    background-color: #cc1465;
+  }
