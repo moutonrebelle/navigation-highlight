@@ -59,6 +59,6 @@ a {
     background-color: #cc1465;
   }
 
-.nav li.current {
+nav .current {
   background-color: #b20953;
 }
