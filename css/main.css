@@ -58,3 +58,7 @@ a {
 .cards li:hover {
     background-color: #cc1465;
   }
+
+.nav li.current {
+  background-color: #b20953;
+}
