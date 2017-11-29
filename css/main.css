@@ -13,13 +13,13 @@ html {
 }
 
 body {
-  margin: 0 0 0em;
+  margin: 0em;
 }
 
 /* ------------- =heading -------------- */
 
 h1 {
-  font-family: sigmar one;
+  font-family: "sigmar one";
   text-align: center;
   font-size: 3rem;
   color: #cc1465;
