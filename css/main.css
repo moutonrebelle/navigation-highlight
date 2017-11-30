@@ -92,6 +92,7 @@ a {
   list-style-type: none;
   text-align: center;
   border-radius: 4px;
+  font-size: 1.125rem;
 }
 
 .cards a:hover {
