@@ -82,8 +82,8 @@ a {
 }
 
 .cards a:hover {
-    background-color: #cc1465;
-  }
+  background-color: #cc1465;
+}
 
 nav a.current {
   background-color: #b20953;
