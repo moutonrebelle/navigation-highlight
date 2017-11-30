@@ -3,7 +3,6 @@
 html {
   line-height: 1.5;
   font-family: Georgia, serif;
-  font-size: 1.125rem;
   box-sizing: border-box;
   text-align: center;
   color: #2f2d13;
@@ -21,6 +20,9 @@ h2 {
   font-family: "Sigmar One", sans-serif;
   font-size: 1.875rem;
   color: #b20953;
+  padding: 0 .75em;
+  text-align: left;
+  margin: 0 0 1.5rem;
 }
 
 img {
@@ -30,17 +32,25 @@ img {
 
 .image {
   display: inline-block;
-  padding: .75em;
+  padding: 0 .75em;
   vertical-align: middle;
 }
 
+figure {
+  margin: 0;
+}
+
 .text {
-  display: inline-block;
   text-align: left;
   margin: .3em;
   max-width: 25em;
   padding: 0 .75em;
   vertical-align: middle;
+}
+
+p {
+  margin: 0 0 1.5rem;
+  margin-top: 1.5rem;
 }
 
 /* ------------- =heading -------------- */
@@ -58,6 +68,7 @@ h1 {
 header {
   display: block;
   background-color: #ffe500;
+  margin-bottom: 1.5rem;
 }
 
 nav ul {
@@ -96,7 +107,7 @@ nav a.current {
 footer {
   display: block;
   background-color: #ffe500;
-  padding: 0 .75em;
+  padding: .75em;
   bottom: 0;
   width: 100%;
 }
