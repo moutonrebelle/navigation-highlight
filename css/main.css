@@ -2,10 +2,11 @@
 
 html {
   line-height: 1.5;
-  font-family: georgia;
+  font-family: Georgia, serif;
   font-size: 1.125rem;
   box-sizing: border-box;
   text-align: center;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
@@ -13,11 +14,11 @@ html {
 }
 
 body {
-  margin: 0em;
+  margin: 0;
 }
 
 h2 {
-  font-family: "sigmar one";
+  font-family: "Sigmar One", sans-serif;
   font-size: 1.875rem;
   color: #b20953;
 }
@@ -45,7 +46,7 @@ img {
 /* ------------- =heading -------------- */
 
 h1 {
-  font-family: "sigmar one";
+  font-family: "Sigmar One", sans-serif;
   text-align: center;
   font-size: 3rem;
   color: #b20953;
@@ -62,8 +63,8 @@ header {
 nav ul {
   vertical-align: middle;
   text-align: center;
-  padding: 0em;
-  margin: 0em;
+  padding: 0;
+  margin: 0;
 }
 
 .cards li {
@@ -96,13 +97,13 @@ footer {
   display: block;
   background-color: #ffe500;
   padding: 0 .75em;
-  bottom: 0em;
+  bottom: 0;
   width: 100%;
 }
 
 footer p {
   display: block;
   font-size: .75rem;
-  margin: 0em;
+  margin: 0;
   padding: .75em;
 }
